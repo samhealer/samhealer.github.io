@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Film"
+date:   2019-01-03 19:52
+---
+
+My [Letterboxd diary](https://letterboxd.com/samhealer/films/diary) is the place to be.
