@@ -16,7 +16,7 @@
 title: A Compendium of Cultural Experiences
 email: sam@samhealer.com
 description: >- # this means to ignore newlines until "baseurl:"
-  For when I try to actually write something
+  The things I've been consuming in 2019
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: anewthought
@@ -27,6 +27,9 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+show_excerpts: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
