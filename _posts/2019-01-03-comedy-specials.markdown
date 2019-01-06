@@ -4,6 +4,11 @@ title:  "Comedy specials in 2019"
 date:   2019-01-03 19:52
 ---
 
+### Ellie Taylor: Cravings
+*6th Jan*
+
+Some good observational material on being currently pregnant. Part of Netflix's **Comedians Of The World**.
+
 ### Nish Kumar: Very Clever Boy
 *5th Jan*
 
