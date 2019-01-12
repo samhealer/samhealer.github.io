@@ -4,6 +4,16 @@ title:  "Comedy specials in 2019"
 date:   2019-01-03 19:52
 ---
 
+### Chris D'Elia: Nonstop
+*11th Jan*
+
+Turns out, doing hack material in stupid voices doesn't stop it being hack material. Wouldn't survive 5 minutes in a UK comedy night. Part of Netflix's **Comedians Of The Wold**.
+
+### Neal Brennan: Here We Go
+*11th Jan*
+
+Insightful, acutely observed material on the current state of the #MeToo movement and Trump, with some excellent structural work. Part of Netflix's **Comedians Of The Wold**.
+
 ### Ellie Taylor: Cravings
 *6th Jan*
 
