@@ -4,6 +4,11 @@ title:  "Live comedy in 2019"
 date:   2019-01-03 19:52
 ---
 
+### Josh Widdicombe & Sara Barron
+*OPPO, 17th Jan*
+
+An absolutely rammed evening at OPPO, with Josh Widdicombe doing 45 of new stuff from pesto to weddings, and Sara doing her Edinburgh-nominated show again - I saw it in WIP form last year and it's even funnier now.
+
 ### Belly Laughs
 *Squeezed, 15th Jan*
 
