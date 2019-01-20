@@ -4,6 +4,11 @@ title:  "Comedy specials in 2019"
 date:   2019-01-03 19:52
 ---
 
+### Joe Lycett: I'm About To Lose Control And I Think Joe Lycett
+*12th Jan*
+
+tbc
+
 ### Chris D'Elia: Nonstop
 *11th Jan*
 
