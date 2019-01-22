@@ -4,6 +4,11 @@ title:  "Comedy specials in 2019"
 date:   2019-01-03 19:52
 ---
 
+### Kevin Bridges: The Brand New Tour
+*21st Jan*
+
+tbc
+
 ### Joe Lycett: I'm About To Lose Control And I Think Joe Lycett
 *12th Jan*
 
