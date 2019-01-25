@@ -7,12 +7,12 @@ date:   2019-01-03 19:52
 ### Kevin Bridges: The Brand New Tour
 *21st Jan*
 
-tbc
+A title sequence for a stand-up DVD doesn't need to be 3 minutes long. Some astutely observed bits, and Bridges is great at taking the audience along with him, but I also find it interesting how the set becomes more conservative as it goes on.
 
 ### Joe Lycett: I'm About To Lose Control And I Think Joe Lycett
 *12th Jan*
 
-tbc
+I'm a fan of Joe Lycett's, and I saw quite a bit of this being worked out at ARG a couple of years ago. The core material is greate, Lycett is at his best when he's causing email mischief, and the evident glee he takes in relaying it is captivating. I don't think, however, it's fair to spend a good 15 minutes of your special getting the audience to tweet in suggestions for a Twitter game. It's lazy, and if Lycett is anything, it's not that. 
 
 ### Chris D'Elia: Nonstop
 *11th Jan*

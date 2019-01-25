@@ -4,6 +4,16 @@ title:  "Live comedy in 2019"
 date:   2019-01-03 19:52
 ---
 
+### Phil Ellis
+*The Lazy Dog, 24th Jan*
+
+I'd only seen Phil in his *Funz And Gamez* guise before, but the difference to his stand-up is hardly chalk and cheese. An absolute whirlwind of a show, with a lethal 5 minute distraction as Phil decided to investigate what was in the loft hatch without any way of getting up or more importantly down, and the closing "magic trick" had me properly slapping my thigh in uncontrollable laughter. Magnificent.
+
+### Tom Glover
+*OPPO, 23rd Jan*
+
+Back to normal at OPPO. Tom Glover doing his first preview of his first Edinburgh show, and it went down a treat. The modern phonetic alphabet is a bit that can be so easily weaved throughout the show and fill any lulls as they come.
+
 ### Josh Widdicombe & Sara Barron
 *OPPO, 17th Jan*
 
