@@ -4,6 +4,16 @@ title:  "Live comedy in 2019"
 date:   2019-01-03 19:52
 ---
 
+### Belly Laughs
+*Pata Negra, 28th Jan*
+
+The penultimate Belly Laughs of the year, this time in the upstairs of Pata Negra, with some incredible tapas. Olver compering, a very similar line up to the previous night, and a last minute closing set from Mat Ewins.
+
+### Belly Laughs
+*The Strawberry Thief, 27th Jan*
+
+A fun little Sunday night gig with some delicious food (I ate too many chocolate truffles) - Olver compering; Jeremy Flynn, Richard James, Morgan Rees, James Tricky supporting; and the wonderful Laura Lexx closing with some new stuff only being said aloud for the second time which was dispiritingly good. 
+
 ### Phil Ellis
 *The Lazy Dog, 24th Jan*
 
