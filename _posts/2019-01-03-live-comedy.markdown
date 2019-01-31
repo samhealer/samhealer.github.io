@@ -4,6 +4,16 @@ title:  "Live comedy in 2019"
 date:   2019-01-03 19:52
 ---
 
+### OPPO
+*31st Jan*
+
+I skipped out at the interval for this one because I needed an early night, but a strong first half from Morgan Rees, Kate Williams, Andy Askins, Jessie Johnson, and Alex Kitson, with the wonderful Louise Leigh compering and mopping up spilled beer.
+
+### Belly Laughs
+*Hart's Bakery, 29th Jan*
+
+The final Belly Laughs of 2019! What a fun one, no headliner, just rattling through the wonderful Morgan (doing a lovely impromptu countdown of the 28 best crisps), Jessie, Gary, and Tony; Olver compering like a legend; and the most incredible baked goods, pasties, and sausage rolls. This is what it's all about.
+
 ### Belly Laughs
 *Pata Negra, 28th Jan*
 
