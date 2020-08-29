@@ -1,0 +1,17 @@
+---
+layout: page
+title: Home
+pagination:
+  enabled: false
+---
+<section class="list">
+<center><h1>Recent posts</h1></center>
+
+        {% for post in site.posts limit:3 %}
+            {% if post.category == 'blog' %}
+                {% if post.hidden != true %}
+                    {% include blog-post.html %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+</section>

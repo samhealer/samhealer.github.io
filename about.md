@@ -1,18 +1,22 @@
 ---
-layout: page
 title: About
-permalink: /about/
+layout: page
 ---
+![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<p>
+Hi, I'm Sam. I recently graduated with an MEng in Computer Science from Bristol, and have been at Hewlett Packard Enterprise since September 2016. I'm a tech geek who enjoys trying out and finding uses for all kinds of technologies and platforms, from smartphones to supercomputers.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm also a pop culture obsessive who loves all things music, film, TV, and books - I even write about these from time to time, for myself and for Epigram. I'm especially interested when technology and pop culture collide.</p>
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+<h2>Skills</h2>
 
+<ul class="skill-list">
+	<li>Go</li>
+	<li>Python</li>
+	<li>Docker</li>
+	<li>Kubernetes</li>
+	<li>AWS</li>
+	<li>Git</li>
+</ul>
 
-[jekyll-organization]: https://github.com/jekyll

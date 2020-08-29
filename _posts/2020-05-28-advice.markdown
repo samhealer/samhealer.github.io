@@ -1,0 +1,22 @@
+---
+title: "Some inadvertently wise advice"
+layout: post
+date: 2020-05-28 19:24
+headerImage: false
+category: blog
+author: samhealer
+---
+
+For the last year, I've been mentoring our intern on our team, Harry - an immensely rewarding experience which I'll be repeating with one of our new interns when they join next month. For various reasons above my pay grade, Harry was given a project he shouldn't have been given - a project that would be widely used in production by actual consumers. Oh, and he'd be the only person working on it. Fortunately for us, Harry is remarkably technologically adept and has ably risen to the challenges he's encountered over the last year. 
+
+Earlier today, he asked if we could have a chat, because he was worried he wasn't living up to the expectations he'd set himself, that he felt he should have had this done a while ago and it had been weighing on him that he hadn't finished yet. This is something I think all software engineers feel, and probably most of us do in life just generally. Lord knows I've been feeling like that for the last 9 months or so at work with my own project, had felt like that with stand up for the last few months of it, and have still been feeling like that for personal stuff the last couple months. 
+
+The advice I thought sounded good in the moment was this:
+
+> Get the project "finished", whatever that looks like. Learn practical, specific lessons from it ("I should have been updating the design document more often" rather than "I screwed the design up totally"). Reflect on the things you've done well that you'd notice as an outside observer.
+
+And actually I think there's something really valuable in there. Most of us, narcissists aside, are able to notice their own flaws, often to a self-paralysing extent (hi!). And of the "most of us", most of us are able to at least try to work on those flaws, and sometimes we improve, and sometimes we fall back, but we're conscious of it.
+
+A lot of the time, though, fewer people are really able to identify and embrace the things they're good at, or the things they've done well. Trying to fix the bad stuff is easy, but god it wears you down. Every effort to improve your flaws is just another reminder that they exist in the first place, and it's no wonder we give up new year's resolutions so easily. They're never about just keeping or doing more of the good stuff, it's almost always trying to undo some bad habit. And so those good attributes flounder, or plateau, or atrophy. You miss out on the positive feedback loop. 
+
+I told Harry that I think the ability to both improve your flaws and actively build on your strengths is the surest indicator of going on to become a top engineer. It's probably true in general. I hope it is. I'm always staggered by my ability to give good advice that I don't take, and I'm going to make more of an effort to actually listen to myself this time. After all, giving good advice is one of my most positive attributes.

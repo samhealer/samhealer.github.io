@@ -1,5 +1,0 @@
----
-layout: post
-title:  "Gigs in 2019"
-date:   2019-01-03 19:52
----
