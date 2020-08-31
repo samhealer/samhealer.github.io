@@ -1,14 +1,15 @@
 ---
-title: "Trenchmill"
-layout: page
-year: 2015
+title: "Skylark"
+layout: post
+year: "2019"
 tag: magpie
 image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
-headerImage: true
+headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
+description: "A tool to represent git repositories as chiptune music."
 category: project
 author: samhealer
 externalLink: false
+big: false
 ---

@@ -1,197 +1,34 @@
 ---
 title: "Magpie"
 layout: post
-year: 2016
+year: "2016"
 tag: magpie
 image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
-headerImage: true
+headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
+description: "A system for automatic plagiarism detection in MIDI files"
 category: project
 author: samhealer
 externalLink: false
+big: true
 ---
 
+![68648492_361239248141556_8522284295832731648_n](/assets/images/projects/magpie1.png)
 
-## Summary:
+**Developed:** January 2016 - May 2016\
+**Tools used:** Python, Django, Javascript, tone.js
 
-You can pick as item to see how to apply in markdown.
 
-#### Especial Elements
-- [Evidence](#evidence)
-- [Side-by-Side](#side-by-side)
-- [Star](#star)
-- [Especial Breaker](#especial-breaker)
-- [Spoiler](#spoiler)
+In the world of music, intentionally or unintentionally copying someone else’s melody can carry an ex- traordinarily large price tag, yet it is practically impossible to check this properly in a thorough manner. To solve this problem, I have created Magpie, a system designed to automatically detect plagiarism in MIDI files.
+The principal aim in designing Magpie was to be able to query a melody against a large dataset in an efficient and accurate manner. Inherent in this was a number of requirements, from implementing a data structure or algorithm which allows nearest neighbour querying against a large dataset quickly, to determining some way of ensuring that the comparison used to determine the distance between two melodies truly reflected how different they actually sounded, not just some absolute numerical distance.
 
-#### External Elements
-- [Gist](#gist)
-- [Codepen](#codepen)
-- [Slideshare](#slideshare)
-- [Videos](#videos)
+The MIDI file format is incredibly expressive, but the trade off is a complicated file format which does not provide an easy way to access the key information; in order to meet the efficiency required, a simpler representation of the melody would be required. Finally, there needed to be a user-friendly interface to interact the system, which had to retain the speed and accuracy of the core implementation.
 
----
-
-## Evidence
-
-You can try the evidence!
-
-<span class="evidence">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
-
-{% highlight html %}
-<span class="evidence">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
-{% endhighlight %}
-
----
-
-## Side-by-side
-
-Like the [Medium](https://medium.com/) component.
-
-**Image** on the left and **Text** on the right:
-
-{% highlight html %}
-<div class="side-by-side">
-    <div class="toleft">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
-    </div>
-
-    <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-</div>
-{% endhighlight %}
-
-<div class="side-by-side">
-    <div class="toleft">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
-    </div>
-
-    <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-</div>
-
-**Text** on the left and **Image** on the right:
-
-{% highlight html %}
-<div class="side-by-side">
-    <div class="toleft">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-
-    <div class="toright">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
-    </div>
-</div>
-{% endhighlight %}
-
-<div class="side-by-side">
-    <div class="toleft">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-
-    <div class="toright">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
-    </div>
-</div>
-
----
-
-## Star
-
-You can give evidence to a post. Just add the tag to the markdown file.
-
-{% highlight raw %}
-star: true
-{% endhighlight %}
-
----
-
-## Especial Breaker
-
-You can add a especial *hr* to your text.
-
-{% highlight html %}
-<div class="breaker"></div>
-{% endhighlight %}
-
-<div class="breaker"></div>
-
----
-
-## Spoiler
-
-You can add an especial hidden content that appears on hover.
-
-{% highlight html %}
-<div class="spoiler"><p>your content</p></div>
-{% endhighlight %}
-
-<div class="spoiler"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-
----
-
-## Gist
-
-You can add Gists from github.
-
-{% highlight raw %}
-{ % gist sergiokopplin/91ff4220480727b47224245ee2e9c291 % }
-{% endhighlight %}
-
-{% gist sergiokopplin/91ff4220480727b47224245ee2e9c291 %}
-
----
-
-## Codepen
-
-You can add Pens from Codepen.
-
-{% highlight html %}
-<p data-height="268" data-theme-id="0" data-slug-hash="gfdDu" data-default-tab="result" data-user="chriscoyier" class='codepen'>
-    See the Pen <a href='https://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='https://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='https://codepen.io'>CodePen</a>.
-</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-{% endhighlight %}
-
-<p data-height="268" data-theme-id="0" data-slug-hash="gfdDu" data-default-tab="result" data-user="chriscoyier" class='codepen'>See the Pen <a href='https://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='https://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='https://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-
----
-
-## Slideshare
-
-Add your presentations here!
-
-{% highlight html %}
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/hqDhSJoWkrHe7l" width="560" height="310" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-{% endhighlight %}
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/hqDhSJoWkrHe7l" width="560" height="310" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-
----
-
-## Videos
-
-Do you want some videos? Youtube, Vimeo or Vevo? Copy the embed code and paste on your post!
-
-**Example**
-
-{% highlight html %}
-<iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
-{% endhighlight %}
-
-<iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
-
-[1]: https://daringfireball.net/projects/markdown/
-[2]: https://www.fileformat.info/info/unicode/char/2163/index.htm
-[3]: https://www.markitdown.net/
-[4]: https://daringfireball.net/projects/markdown/basics
-[5]: https://daringfireball.net/projects/markdown/syntax
-[6]: https://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg
+My primary contributions were:
+* I researched the MIDI file format to determine exactly what information was needed and in what form it existed.
+* I designed a new way of representing the melody which required less space, was more easily parsable, and was both pitch and tempo invariant.
+* I wrote 4000 lines of code in Python to determine which track in a MIDI file was the vocal track, extract the melody, and convert the melody to my representation.
+* I optimised an implementation of locality-sensitive hashing to be able to make a query against ∼ 400000 items in a dataset in a hundredth of a second.
+* I created a mapping of numeric distance to harmonic distance in order to implement an improved distance metric for comparing two melodies, which takes into account musical similarity.
+* I implemented a web-based front end for the system with an interactive piano roll to allow users to draw in a melody.
