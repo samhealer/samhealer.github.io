@@ -14,7 +14,7 @@ externalLink: false
 big: false
 ---
 
-(a more in-depth exploration of Skylark is available in [this blog post](/skylark))
+(a more in-depth exploration of Skylark is available in [this blog post](/2019/07/31/skylark))
 
 **Developed:** July 2019\
 **Tools used:** Python, pretty-midi, FluidSynth

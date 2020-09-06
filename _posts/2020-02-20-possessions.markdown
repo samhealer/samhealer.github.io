@@ -9,7 +9,7 @@ author: samhealer
 
 ...as discovered during the process of moving flat for the first time in three and a half years:
 
-* An never-used Google Glass
+* A never-used Google Glass
 * Too many books
 * No, seriously, too many books. Like, too many in the flat I had to myself, let alone the smaller flat I now share. 
 * The ability to understand the Japanese word "tsundoku" - to have the habit of buying books at a faster rate than one reads them - and yet the inability to stop myself fulfilling this prophecy.

@@ -19,7 +19,8 @@ resume-url: assets/cv.pdf
 url: http://samhealer.com
 # your url: https://USERNAME.github.io
 
-permalink: /:title/
+permalink: /:year/:month/:day/:title/
+# permalink: /:title/
 
 collections:
   projectpages:
