@@ -44,7 +44,7 @@ This is 160 bits of information, so let's split it up into 20 8-bit chunks (or, 
 
 ![68648492_361239248141556_8522284295832731648_n](/assets/images/projects/skylark1.png)
 
-I take the first 4 bits and map that to the pitch value of the note. In order to lazily ensure that the generated notes don't clash terribly, these pitch values are restricted to the pentatonic scale, a scale often used in education and improvisation because it's basically impossible for the notes to be disharmonic with each other. As the name would suggest, the pentatonic scale has 5 notes in an octive, so with 16 values, we can cover three octaves, C1-C4. The next two bits determines the harmony, and the final two bits determine the duration, as so:
+I take the first 4 bits and map that to the pitch value of the note. In order to lazily ensure that the generated notes don't clash terribly, these pitch values are restricted to the pentatonic scale, a scale often used in education and improvisation because it's basically impossible for the notes to be disharmonic with each other. As the name would suggest, the pentatonic scale has 5 notes in an octave, so with 16 values, we can cover three octaves, C1-C4. The next two bits determines the harmony, and the final two bits determine the duration, as so:
 
 | Bits | Harmony       | Duration  |
 |------|---------------|-----------|
