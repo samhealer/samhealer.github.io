@@ -1,0 +1,52 @@
+---
+title: "Making music out of code"
+layout: post
+date: 2020-09-05 23:36
+headerImage: false
+hidden: false
+category: blog
+author: samhealer
+---
+
+At HPE, one of our most enjoyable perks are our monthly hack days - around a couple of days each month to spend as we see fit. Sometimes we use it for learning, sometimes we use it for semi-work-related projects. But a lot of the time, I'm the kind of person who likes to push the limits of what "don't take the piss" means when it comes to hack days, and my favourite example of this is what I did in July 2019: Skylark.
+
+Don't ask me why, but for some reason I reckoned you could probably represent a git repository as a piece of music, and for some other reason I reckoned that might be interesting. It's an exercise in mapping the attributes of one to the attributes of another, in some vaguely meaningful way. In git, I figured you had the following "outputs" from each git commit:
+
+* SHA-1 hash
+* List of files
+* Author
+* Timestamp
+
+And that these needed mapping to the following melodic "inputs":
+
+* Pitch
+* Duration
+* Harmony
+* Velocity
+* Instrumentation
+* Tempo
+
+
+A SHA-1 hash looks a little like this:
+
+`2fd4e1c67a2d28fced849ee1bb76e7391b93eb12`
+
+This is 160 bits of information, so let's split it up into 20 8-bit chunks (or, I suppose, bytes). Each of these bytes can be mapped to a single note like so:
+
+![68648492_361239248141556_8522284295832731648_n](/assets/images/projects/skylark1.png)
+
+I take the first 4 bits and map that to the pitch value of the note. In order to lazily ensure that the generated notes don't clash terribly, these pitch values are restricted to the pentatonic scale, a scale often used in education and improvisation because it's basically impossible for the notes to be disharmonic with each other. As the name would suggest, the pentatonic scale has 5 notes in an octive, so with 16 values, we can cover three octaves, C1-C4. The next two bits determines the harmony, and the final two bits determine the duration, as so:
+
+| Bits | Harmony       | Duration  |
+|------|---------------|-----------|
+| 00   | None          | 1/16 note |
+| 01   | None          | 1/8 note  |
+| 10   | 2 notes above | 1/4 note  |
+| 11   | 3 notes above | 1/2 note  |
+
+ 
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/888427966&color=%23ff9900&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/samhealer" title="samhealer" target="_blank" style="color: #cccccc; text-decoration: none;">samhealer</a> · <a href="https://soundcloud.com/samhealer/initial-stab" title="Initial Stab" target="_blank" style="color: #cccccc; text-decoration: none;">Initial Stab</a></div>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/888427957&color=%23ff9900&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/samhealer" title="samhealer" target="_blank" style="color: #cccccc; text-decoration: none;">samhealer</a> · <a href="https://soundcloud.com/samhealer/accidental-minimalism" title="Accidental Minimalism" target="_blank" style="color: #cccccc; text-decoration: none;">Accidental Minimalism</a></div>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/888428332&color=%23ff9900&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/samhealer" title="samhealer" target="_blank" style="color: #cccccc; text-decoration: none;">samhealer</a> · <a href="https://soundcloud.com/samhealer/baas-prov" title="baas-prov" target="_blank" style="color: #cccccc; text-decoration: none;">baas-prov</a></div>

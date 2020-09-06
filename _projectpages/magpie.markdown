@@ -16,11 +16,11 @@ big: true
 
 ![68648492_361239248141556_8522284295832731648_n](/assets/images/projects/magpie1.png)
 
-**Developed:** January 2016 - May 2016\
+**Developed:** Masters dissertation, January 2016 - May 2016\
 **Tools used:** Python, Django, Javascript, tone.js
 
 
-In the world of music, intentionally or unintentionally copying someone else’s melody can carry an ex- traordinarily large price tag, yet it is practically impossible to check this properly in a thorough manner. To solve this problem, I have created Magpie, a system designed to automatically detect plagiarism in MIDI files.
+In the world of music, intentionally or unintentionally copying someone else’s melody can carry an ex- traordinarily large price tag, yet it is practically impossible to check this properly in a thorough manner. To solve this problem, I created Magpie, a system designed to automatically detect plagiarism in MIDI files.
 The principal aim in designing Magpie was to be able to query a melody against a large dataset in an efficient and accurate manner. Inherent in this was a number of requirements, from implementing a data structure or algorithm which allows nearest neighbour querying against a large dataset quickly, to determining some way of ensuring that the comparison used to determine the distance between two melodies truly reflected how different they actually sounded, not just some absolute numerical distance.
 
 The MIDI file format is incredibly expressive, but the trade off is a complicated file format which does not provide an easy way to access the key information; in order to meet the efficiency required, a simpler representation of the melody would be required. Finally, there needed to be a user-friendly interface to interact the system, which had to retain the speed and accuracy of the core implementation.
