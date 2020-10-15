@@ -1,5 +1,5 @@
 ---
-title: "Food for laughter   "
+title: "Food for laughter "
 layout: post
 date: 2020-10-07 19:00
 headerImage: false
