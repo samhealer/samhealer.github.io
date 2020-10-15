@@ -5,9 +5,9 @@ layout: page
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
 <p>
-Hi, I'm Sam. I recently graduated with an MEng in Computer Science from Bristol, and have been at Hewlett Packard Enterprise since September 2016. I'm a tech geek who enjoys trying out and finding uses for all kinds of technologies and platforms, from smartphones to supercomputers.
+Hi, I'm Sam. I'm currently a software engineer at Hewlett Packard Enterprise, based in Bristol, working on cloud storage. I graduated from Bristol with an MEng in Computer Science in 2016 and have been at HPE ever since.
 
-I'm also a pop culture obsessive who loves all things music, film, TV, and books - I even write about these from time to time, for myself and for Epigram. I'm especially interested when technology and pop culture collide.</p>
+I'm also a pop culture obsessive who loves all things music, film, TV, and books - I even write about these from time to time, for myself and for Epigram. I'm especially interested when technology and pop culture collide - like when I [wrote something to transform git repos into chiptune tracks](http://samhealer.com/projectpages/skylark/)</p>
 
 <h2>Skills</h2>
 
