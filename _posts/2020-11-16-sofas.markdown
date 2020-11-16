@@ -1,7 +1,7 @@
 ---
 title: "Sofa So Fast*"
 layout: post
-date: 2020-11-16 21:00
+date: 2020-11-16 20:00
 headerImage: false
 category: blog
 author: samhealer
