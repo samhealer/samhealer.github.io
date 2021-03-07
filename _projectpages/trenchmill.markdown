@@ -1,6 +1,6 @@
 ---
 title: "Trenchmill"
-layout: post
+layout: project
 year: "2014-2015"
 tag: magpie
 image: assets/images/projects/trenchmill1.jpg

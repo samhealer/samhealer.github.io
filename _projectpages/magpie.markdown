@@ -1,6 +1,6 @@
 ---
 title: "Magpie"
-layout: post
+layout: project
 year: "2016"
 tag: magpie
 image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png

@@ -1,6 +1,6 @@
 ---
 title: "HPE Cloud Bank Storage"
-layout: post
+layout: project
 year: "2016-2018"
 tag: magpie
 image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
@@ -14,4 +14,4 @@ externalLink: false
 big: true
 ---
 
-Coming soon.
+Coming soon subject to figuring out what gnarly details I'm allowed to talk about. 

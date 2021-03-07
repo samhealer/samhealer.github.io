@@ -1,6 +1,6 @@
 ---
 title: "Skylark"
-layout: post
+layout: project
 year: "2019"
 tag: magpie
 image: assets/images/projects/skylark1.png
