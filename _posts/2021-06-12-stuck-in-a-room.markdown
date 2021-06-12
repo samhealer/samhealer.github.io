@@ -13,7 +13,7 @@ It's been a strange year. In a fascinating insight into the human spirit and of 
 
 For Bo Burnham, as Inside puts it, those two things are one and the same. The conceit of Inside is simple: at the beginning of lockdown, Burnham locked himself in a room. In this room, he would write, direct, shoot, and edit a new stand up special - his first in 5 years - by himself. 
 
-*The rest of this is quite spoiler heavy for Inside, and Burnham's previous specials Make Hapy and what., so maybe watch it/them first?*
+*The rest of this is quite spoiler heavy for Inside, and Burnham's previous specials Make Happy and what., so maybe watch it/them first?*
 
 ![bo](/assets/images/bo.jpg)
 
