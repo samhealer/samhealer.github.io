@@ -10,3 +10,5 @@ group :jekyll_plugins do
     gem "jekyll-paginate"
     gem "html-proofer"
 end
+
+gem "webrick", "~> 1.7"
