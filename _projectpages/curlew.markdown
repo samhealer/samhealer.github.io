@@ -1,20 +1,20 @@
 ---
 title: "Curlew"
 layout: project
-year: "2022"
+year: "2022-04"
 tag: magpie
 <!-- image: assets/images/projects/skylark1.png -->
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "An project to generate an 8 hour workday playlist tailored to your daily calendar"
+description: "A project to generate an 8 hour workday playlist tailored to your daily calendar"
 category: project
 author: samhealer
 externalLink: false
 big: false
 ---
 
-**Developed:** May 2022\
+**Developed:** April 2022\
 **Tools used:** Python, Flask, Spotipy
 
 It occurred to me that in this world of Zoom meetings, there's no reason why I can't listen to music during meetings. But I supposed that the same music wouldn't work all day. After all, my day back then (when I was an actual software engineer) might be all over the place, like this:

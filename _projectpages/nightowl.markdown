@@ -1,7 +1,7 @@
 ---
 title: "Nightowl"
 layout: project
-year: "2022"
+year: "2022-06"
 tag: magpie
 <!-- image: assets/images/projects/skylark1.png -->
 headerImage: false

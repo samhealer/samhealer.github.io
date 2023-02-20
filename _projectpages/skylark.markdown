@@ -1,7 +1,7 @@
 ---
 title: "Skylark"
 layout: project
-year: "2019"
+year: "2019-07"
 tag: magpie
 image: assets/images/projects/skylark1.png
 headerImage: false
